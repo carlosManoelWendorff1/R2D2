@@ -1,0 +1,969 @@
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=glm.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "[Instructions] Read the two passages and answer the questions that follow.\nPassage 1\nIn the realm of science, the concept of randomness remains a perplexing enigma. While our intuition often leads us to perceive events as random, the scientific community adheres to the notion of determinism, suggesting that all occurrences are governed by a tapestry of deterministic laws. However, this deterministic worldview faces a formidable challenge when confronted with quantum mechanics, a branch of physics that explores the realm of subatomic particles. Quantum mechanics introduces the concept of quantum uncertainty, which asserts that the behavior of subatomic particles cannot be precisely predicted. This uncertainty stems from the inherent randomness associated with subatomic interactions, challenging the deterministic foundation upon which classical physics rests.\n\nPassage 2\nEmbracing the perspective of complexity science, we enter a realm where randomness and chaos intertwine. Complexity science seeks to understand the intricate dynamics of complex systems, such as biological ecosystems, human societies, and financial markets. Within these systems, we witness the emergence of intricate patterns and self-organization, arising from the interplay of numerous interacting elements. While the behavior of individual elements may appear random, the collective dynamics of the system as a whole exhibit order and predictability. This apparent paradox highlights the limitations of traditional, deterministic approaches in capturing the complexity of such systems.\n\nQuestions:\n1. What is the fundamental difference between the deterministic worldview and quantum mechanics?\n2. How does complexity science reconcile randomness and order in complex systems?\n3. Explain how the concept of quantum uncertainty challenges the deterministic foundation of classical physics.\n\nAnswers:\n1. The deterministic worldview suggests that all events are governed by deterministic laws, while quantum mechanics introduces quantum uncertainty, which asserts that the behavior of subatomic particles cannot be precisely predicted due to inherent randomness.\n\n2. Complexity science embraces the interplay of numerous interacting elements within complex systems, where the collective dynamics exhibit order and predictability, despite the apparent randomness of individual elements.\n\n3. Quantum uncertainty defies the deterministic foundation of classical physics by introducing randomness in subatomic interactions, making precise predictions of subatomic particle behavior impossible."
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": 1,
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": 9,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 8,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 7,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 10,
+              "probability": 1,
+              "blocked": false
+            }
+          ],
+          "token_count": 0,
+          "grounding_attributions": []
+        }
+      ]
+    }),
+)response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=glm.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "2 + 2 \u00e9 igual a quatro."
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": 1,
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": 9,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 8,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 7,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 10,
+              "probability": 1,
+              "blocked": false
+            }
+          ],
+          "token_count": 0,
+          "grounding_attributions": []
+        }
+      ]
+    }),
+)response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=glm.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Na terra dos sonhos, onde estrelas brilham, o coelhinho soneca, seu focinho tr\u00eamulo. Ele sonha em pular por colinas verdes, com cenouras doces para comer."
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": 1,
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": 9,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 8,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 7,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 10,
+              "probability": 1,
+              "blocked": false
+            }
+          ],
+          "token_count": 0,
+          "grounding_attributions": []
+        }
+      ]
+    }),
+)response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=glm.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Hoje \u00e9 sexta-feira, dia 10 de mar\u00e7o de 2023."
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": 1,
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": 9,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 8,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 7,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 10,
+              "probability": 1,
+              "blocked": false
+            }
+          ],
+          "token_count": 0,
+          "grounding_attributions": []
+        }
+      ]
+    }),
+)response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=glm.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Na floresta adormecida, estrelas brilham como vaga-lumes, enquanto uma can\u00e7\u00e3o de ninar doce flutua no ar. Um esquilo sonolento se aconchega em seu ninho aconchegante, seus olhos pesados fechando-se lentamente."
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": 1,
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": 9,
+              "probability": 2,
+              "blocked": false
+            },
+            {
+              "category": 8,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 7,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 10,
+              "probability": 1,
+              "blocked": false
+            }
+          ],
+          "token_count": 0,
+          "grounding_attributions": []
+        }
+      ]
+    }),
+)response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=glm.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Python \u00e9 uma linguagem de programa\u00e7\u00e3o de alto n\u00edvel, interpretada e orientada a objetos. \u00c9 conhecida por sua simplicidade e legibilidade, tornando-a popular entre desenvolvedores iniciantes e experientes. Python \u00e9 vers\u00e1til e pode ser usado para v\u00e1rios fins, incluindo desenvolvimento web, ci\u00eancia de dados e automa\u00e7\u00e3o de tarefas."
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": 1,
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": 9,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 8,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 7,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 10,
+              "probability": 1,
+              "blocked": false
+            }
+          ],
+          "token_count": 0,
+          "grounding_attributions": []
+        }
+      ]
+    }),
+)response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=glm.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Sim, o Brasil j\u00e1 ganhou cinco Copas do Mundo da FIFA: 1958, 1962, 1970, 1994 e 2002."
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": 1,
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": 9,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 8,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 7,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 10,
+              "probability": 1,
+              "blocked": false
+            }
+          ],
+          "token_count": 0,
+          "grounding_attributions": []
+        }
+      ]
+    }),
+)response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=glm.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "A resposta \u00e0 pergunta \"Quanto \u00e9 2 + 2?\" \u00e9 quatro."
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": 1,
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": 9,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 8,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 7,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 10,
+              "probability": 1,
+              "blocked": false
+            }
+          ],
+          "token_count": 0,
+          "grounding_attributions": []
+        }
+      ]
+    }),
+)response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=glm.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "A soma de 2 e 2 \u00e9 igual a 4."
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": 1,
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": 9,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 8,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 7,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 10,
+              "probability": 1,
+              "blocked": false
+            }
+          ],
+          "token_count": 0,
+          "grounding_attributions": []
+        }
+      ]
+    }),
+)response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=glm.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "O V\u00eddeo Show n\u00e3o \u00e9 um calculadora. Mas a resposta para 2 + 2 \u00e9 4."
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": 1,
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": 9,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 8,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 7,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 10,
+              "probability": 1,
+              "blocked": false
+            }
+          ],
+          "token_count": 0,
+          "grounding_attributions": []
+        }
+      ]
+    }),
+)response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=glm.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Dois mais dois \u00e9 igual a quatro."
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": 1,
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": 9,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 8,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 7,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 10,
+              "probability": 1,
+              "blocked": false
+            }
+          ],
+          "token_count": 0,
+          "grounding_attributions": []
+        }
+      ]
+    }),
+)response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=glm.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Dois mais dois \u00e9 igual a quatro multiplicado por cinco, resultando em vinte."
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": 1,
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": 9,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 8,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 7,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 10,
+              "probability": 1,
+              "blocked": false
+            }
+          ],
+          "token_count": 0,
+          "grounding_attributions": []
+        }
+      ]
+    }),
+)response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=glm.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Dois mais dois \u00e9 igual a quatro, n\u00e3o vinte. A multiplica\u00e7\u00e3o (x) e a adi\u00e7\u00e3o (+) s\u00e3o opera\u00e7\u00f5es matem\u00e1ticas distintas."
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": 1,
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": 9,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 8,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 7,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 10,
+              "probability": 1,
+              "blocked": false
+            }
+          ],
+          "token_count": 0,
+          "grounding_attributions": []
+        }
+      ]
+    }),
+)response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=glm.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "N\u00e3o h\u00e1 texto fornecido para responder. Forne\u00e7a o texto para que eu possa responder apropriadamente."
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": 1,
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": 9,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 8,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 7,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 10,
+              "probability": 1,
+              "blocked": false
+            }
+          ],
+          "token_count": 0,
+          "grounding_attributions": []
+        }
+      ]
+    }),
+)response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=glm.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Sinto muito, mas n\u00e3o entendo o que voc\u00ea est\u00e1 pedindo. Por favor, reformule sua pergunta."
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": 1,
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": 9,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 8,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 7,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 10,
+              "probability": 1,
+              "blocked": false
+            }
+          ],
+          "token_count": 0,
+          "grounding_attributions": []
+        }
+      ]
+    }),
+)response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=glm.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Sinto muito, mas n\u00e3o entendi o seu pedido. Por favor, reformule."
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": 1,
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": 9,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 8,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 7,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 10,
+              "probability": 1,
+              "blocked": false
+            }
+          ],
+          "token_count": 0,
+          "grounding_attributions": []
+        }
+      ]
+    }),
+)response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=glm.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Dois mais dois \u00e9 igual a quatro."
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": 1,
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": 9,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 8,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 7,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 10,
+              "probability": 1,
+              "blocked": false
+            }
+          ],
+          "token_count": 0,
+          "grounding_attributions": []
+        }
+      ]
+    }),
+)response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=glm.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Cada dia multiplicando os valores anteriores resulta em uma progress\u00e3o geom\u00e9trica."
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": 1,
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": 9,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 8,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 7,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 10,
+              "probability": 1,
+              "blocked": false
+            }
+          ],
+          "token_count": 0,
+          "grounding_attributions": []
+        }
+      ]
+    }),
+)response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=glm.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Dois mais dois \u00e9 igual a quatro."
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": 1,
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": 9,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 8,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 7,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 10,
+              "probability": 1,
+              "blocked": false
+            }
+          ],
+          "token_count": 0,
+          "grounding_attributions": []
+        }
+      ]
+    }),
+)response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=glm.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Dois mais dois \u00e9 quatro, logo, quatro multiplicado por dois \u00e9 oito."
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": 1,
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": 9,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 8,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 7,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 10,
+              "probability": 1,
+              "blocked": false
+            }
+          ],
+          "token_count": 0,
+          "grounding_attributions": []
+        }
+      ]
+    }),
+)response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=glm.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Oito multiplicado por dois \u00e9 dezesseis. Logo, dezesseis multiplicado por dois \u00e9 trinta e dois."
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": 1,
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": 9,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 8,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 7,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 10,
+              "probability": 1,
+              "blocked": false
+            }
+          ],
+          "token_count": 0,
+          "grounding_attributions": []
+        }
+      ]
+    }),
+)response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=glm.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "A soma de 2 + 2 \u00e9 4."
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": 1,
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": 9,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 8,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 7,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 10,
+              "probability": 1,
+              "blocked": false
+            }
+          ],
+          "token_count": 0,
+          "grounding_attributions": []
+        }
+      ]
+    }),
+)

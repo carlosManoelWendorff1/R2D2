@@ -1,0 +1,8 @@
+SpeechRecognition
+pyttsx3
+python-dotenv
+pyaudio
+setuptools
+google-generativeai
+ipython
+google-colab
