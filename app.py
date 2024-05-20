@@ -5,20 +5,16 @@ import json
 import speech_recognition as sr
 import pyttsx3
 import webbrowser
-from dotenv import load_dotenv
 
 import pathlib
 import textwrap
 
 import google.generativeai as genai
 
-from IPython.display import display
-from IPython.display import Markdown
 
 
 GOOGLE_API_KEY='AIzaSyBcihqJvQl6kXPhEWatU1zjYZbFMpmXz2Q'
 model = genai.GenerativeModel('gemini-pro')
-load_dotenv()
 # Global variable to store the last text from gemini
 lastText = ""
 
@@ -37,10 +33,6 @@ OPTIONS = ["\nIA",
            "\ninteligência artificial",
            "\nnenhuma das opções anteriores"]
 
-
-def to_markdown(text):
-  text = text.replace('•', '  *')
-  return Markdown(textwrap.indent(text, '> ', predicate=lambda _: True))
 
 
 def speak(text):
@@ -105,7 +97,6 @@ def gemini(lt):
     response = model.generate_content(text)
     print(response.text)
     speak(response.text)
-    to_markdown(response.text)
     lastText = response.text
     with open('mensagem.txt', 'a') as f:
         f.write(f"{response}")

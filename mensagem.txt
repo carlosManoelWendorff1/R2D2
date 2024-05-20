@@ -966,4 +966,224 @@ GenerateContentResponse(
         }
       ]
     }),
+)response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=glm.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Dois mais dois \u00e9 igual a quatro."
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": 1,
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": 9,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 8,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 7,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 10,
+              "probability": 1,
+              "blocked": false
+            }
+          ],
+          "token_count": 0,
+          "grounding_attributions": []
+        }
+      ]
+    }),
+)response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=glm.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Multiplicando dois por dez, obtemos vinte.\nMultiplicando quatro por dez, obtemos quarenta.\nPortanto, o resultado final \u00e9 quarenta e dois."
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": 1,
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": 9,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 8,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 7,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 10,
+              "probability": 1,
+              "blocked": false
+            }
+          ],
+          "token_count": 0,
+          "grounding_attributions": []
+        }
+      ]
+    }),
+)response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=glm.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "O computador foi criado por Charles Babbage, um matem\u00e1tico ingl\u00eas, e Ada Lovelace, uma matem\u00e1tica e escritora inglesa."
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": 1,
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": 9,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 8,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 7,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 10,
+              "probability": 1,
+              "blocked": false
+            }
+          ],
+          "token_count": 0,
+          "grounding_attributions": []
+        }
+      ]
+    }),
+)response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=glm.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "A zoeira \u00e9 divertida e descontra\u00edda.\n\u00c9 um jeito de se divertir sem levar a vida muito a s\u00e9rio.\nZoar com os amigos \u00e9 uma \u00f3tima forma de fortalecer os la\u00e7os de amizade."
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": 1,
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": 9,
+              "probability": 2,
+              "blocked": false
+            },
+            {
+              "category": 8,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 7,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 10,
+              "probability": 2,
+              "blocked": false
+            }
+          ],
+          "token_count": 0,
+          "grounding_attributions": []
+        }
+      ]
+    }),
+)response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=glm.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Um motor el\u00e9trico converte energia el\u00e9trica em movimento mec\u00e2nico. Ele possui um rotor (parte m\u00f3vel) e um estator (parte fixa). Quando uma corrente el\u00e9trica passa pelas bobinas do estator, cria um campo magn\u00e9tico que interage com o rotor, fazendo-o girar."
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": 1,
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": 9,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 8,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 7,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 10,
+              "probability": 1,
+              "blocked": false
+            }
+          ],
+          "token_count": 0,
+          "grounding_attributions": []
+        }
+      ]
+    }),
 )
