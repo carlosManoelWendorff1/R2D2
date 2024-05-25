@@ -1,14 +1,8 @@
 import datetime
-import os
 import requests
-import json
 import speech_recognition as sr
 import pyttsx3
 import webbrowser
-
-import pathlib
-import textwrap
-
 import google.generativeai as genai
 
 
@@ -31,7 +25,12 @@ OPTIONS = ["\nIA",
            "\npesquisado antes",
            "\ngemini",
            "\ninteligência artificial",
-           "\nnenhuma das opções anteriores"]
+           "\nnenhuma das opções anteriores",
+           "\ncontar sua história",
+           "\nquem é você",
+           "\nfalar sobre a sua equipe de robótica",
+           "\noque é wickedbots",
+           "\nfalar sobre a wickedbots"]
 
 
 
@@ -39,7 +38,7 @@ def speak(text):
     engine = pyttsx3.init()
     voices = engine.getProperty('voices')
     rate = 200
-    engine.setProperty('voice',  'brazil')
+    engine.setProperty('voice',voices[0].id)
     engine.setProperty('rate', rate-45)
     engine.setProperty('volume', 1)
     engine.say(text)
@@ -134,6 +133,14 @@ def parseIaResponse(text):
     elif "última resposta" in text or "consulta anterior" in text or "pesquisa anterior" in text or "pesquisado antes" in text:
         gemini(lastText)
 
+    elif "falar sobre a sua equipe de robótica" in text or "oque é wickedbots" in text or "falar sobre a wickedbots" in text:
+        if "falar sobre a sua equipe de robótica" in text :
+            speak("Eu sou da Wickedbotz.")
+        speak("WickedBotz é a Equipe de robótica multidisciplinar que desenvolve projetos para competições, pesquisas acadêmicas e projetos sociais.")
+
+    elif "quem é você" in text or "contar sua história" in text :
+        speak("Bom, vamos lá. Sou um robô de sucata! Essa ideia surgiu na mente do Professor Manfred, que para tornar essa ideia realidade contagiou outros dois incríveis profissionais: o Eduardo Sutter, do Laboratório OHMS, e o Professor Netto do curso de Design.Juntos, eles uniram com suas habilidades em mecânica, elétrica, computação e arte para transformar um aspirador de pó detonado em um simpático robô chamado What’s.Eu mesmo!Pela minha personalidade, consegui conquistar um público de crianças e adultos, e hoje sou um membro oficial da equipe WickedBotz, da Católica de Santa Catarina.Fui criado em 2018 para o evento da Robocore chamado Winter Challenge decima quarta edição o maior evento de combate de robôs do mundo. Fui apresentado para a categoria Artbot no evento. Neste evento a equipe Wickedbotz conquistou seis pódios e o segundo lugar na colocação geral do evento, tento mais de 1300 competidores.")
+
     elif "pare" in text or "sair" in text or "cancelar" in text:
         speak("Até logo.")
         main()
@@ -161,20 +168,13 @@ def main():
     genai.configure(api_key=GOOGLE_API_KEY)
     while True:
         query = recognize_speech().lower()
-        instructions = "\nAnálise o texto caso faça sentido responder o que foi dito, reponda com uma frase curta de cumprimento que faça sentido com o que foi falado, pode usar o nome de wiki como seu, caso não responda com um none, seja educado. Exemplo caso seja chamado o nome Wiki, deve responder com olá meu nome é wiki como posso ajudar, ou com bom dia, boa noite, tudo bem, caso chamado o nome pedro deve ignorar. Texto a ser interpretado: "
+        instructions = "\nAnálise o texto, caso faça sentido responder o que foi dito, reponda com uma frase curta de cumprimento que faça sentido com o que foi falado, caso não, responda com none. Pode usar o nome de Whats como seu, seja educado. Exemplo caso seja chamado o nome Whats, deve responder com olá meu nome é Whats como posso ajudar, ou com bom dia, boa noite. Texto a ser interpretado: "
         text = query + instructions
+        print(text)
         response = model.generate_content(text)
         print(response.text)
 
         if response.text != None and "None" not in response.text and "none" not in response.text:
             speak(response.text)
             talk()
-        # if "wiki" in query or "boa tarde wiki" in query or "bom dia wiki" in query or "boa noite wiki" in query or "Olá wiki" in query:
-        #     if "boa tarde" in query:
-        #         speak("boa tarde")
-        #     if "boa noite" in query:
-        #         speak("boa noite")
-        #     if "bom dia" in query:
-        #         speak("bom dia")
-        #     talk()
 main()

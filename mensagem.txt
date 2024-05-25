@@ -1186,4 +1186,180 @@ GenerateContentResponse(
         }
       ]
     }),
+)response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=glm.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Sinto muito, n\u00e3o entendi sua solicita\u00e7\u00e3o."
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": 1,
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": 9,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 8,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 7,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 10,
+              "probability": 1,
+              "blocked": false
+            }
+          ],
+          "token_count": 0,
+          "grounding_attributions": []
+        }
+      ]
+    }),
+)response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=glm.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Certo, mas forne\u00e7a o texto para que eu possa respond\u00ea-lo."
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": 1,
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": 9,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 8,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 7,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 10,
+              "probability": 1,
+              "blocked": false
+            }
+          ],
+          "token_count": 0,
+          "grounding_attributions": []
+        }
+      ]
+    }),
+)response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=glm.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Desculpe, mas n\u00e3o entendi sua pergunta. Voc\u00ea poderia reformular?"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": 1,
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": 9,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 8,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 7,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 10,
+              "probability": 1,
+              "blocked": false
+            }
+          ],
+          "token_count": 0,
+          "grounding_attributions": []
+        }
+      ]
+    }),
+)response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=glm.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Para fazer bacon, frite fatias finas de barriga de porco em uma frigideira at\u00e9 ficarem crocantes e douradas. Retire do fogo e escorra em papel toalha."
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": 1,
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": 9,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 8,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 7,
+              "probability": 1,
+              "blocked": false
+            },
+            {
+              "category": 10,
+              "probability": 2,
+              "blocked": false
+            }
+          ],
+          "token_count": 0,
+          "grounding_attributions": []
+        }
+      ]
+    }),
 )
